@@ -36,7 +36,38 @@
       .profile-links a {
         margin: 0 3px;
       }
+
+      .papertitle {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.35;
+      }
       
+      .publication-authors {
+        margin-top: 8px;
+        color: #777777;
+        line-height: 1.5;
+      }
+      
+      .publication-authors strong {
+        color: #222222;
+        font-weight: 700;
+      }
+      
+      .publication-meta {
+        margin-top: 8px;
+        line-height: 1.5;
+      }
+      
+      .publication-links {
+        margin-top: 4px;
+        line-height: 1.5;
+      }
+      
+      .publication-description {
+        margin-top: 12px;
+        line-height: 1.6;
+      }
     </style>
   </head>
 
@@ -105,18 +136,25 @@
                     <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118018" target="_blank" rel="noopener noreferrer">
                       <span class="papertitle">Diffusion-Driven Two-Stage Active Learning for Low-Budget Semantic Segmentation</span>
                     </a>
-                    <br>
-                    Jeongin Kim, Wonho Bae, <strong>YouLee Han</strong>, Giyeong Oh, Youngjae Yu, Danica J. Sutherland, Junhyug Noh
-                    <br>
-                    <em>NeurIPS</em>, 2025
-                    <br>
-                    <a href="https://arxiv.org/abs/2510.22229" target="_blank" rel="noopener noreferrer">arXiv</a>
-                    /
-                    <a href="https://github.com/jn-kim/two-stage-edald" target="_blank" rel="noopener noreferrer">Code</a>
-                    <p>
-                      We propose a two-stage active learning framework for semantic segmentation under extreme budget constraints. 
+                
+                    <div class="publication-authors">
+                      Jeongin Kim, Wonho Bae, <strong>YouLee Han</strong>, Giyeong Oh, Youngjae Yu, Danica J. Sutherland, Junhyug Noh
+                    </div>
+                
+                    <div class="publication-meta">
+                      <em>NeurIPS</em>, 2025
+                    </div>
+                
+                    <div class="publication-links">
+                      <a href="https://arxiv.org/abs/2510.22229" target="_blank" rel="noopener noreferrer">arXiv</a>
+                      /
+                      <a href="https://github.com/jn-kim/two-stage-edald" target="_blank" rel="noopener noreferrer">Code</a>
+                    </div>
+                
+                    <div class="publication-description">
+                      We propose a two-stage active learning framework for semantic segmentation under extreme budget constraints.
                       Our method leverages pre-trained diffusion models for representative candidate selection and introduces a novel uncertainty score to pinpoint the most informative pixels for annotation.
-                    </p>
+                    </div>
                   </td>
                 </tr>
               </tbody>
